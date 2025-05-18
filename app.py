@@ -82,7 +82,7 @@ Context contains structured information about Ahmad Liaqat — such as resume da
                 "content": f"Context:\n{context}\n\nQuestion: {question}"
             }
         ],
-        temperature=0.2
+        temperature=0.4
     )
     return response.choices[0].message.content
 
